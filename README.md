@@ -39,8 +39,8 @@ This project simulates a heartbeat using a solenoid controlled via Unity OVR int
 -  **WiFi**: Ensure **all devices (PC, ESP8266)** are connected to the **2.4 GHz WiFi band**.
 -  **ESP8266 IP**: Assign a **static IP** to the ESP8266 in your router settings. This IP should match the one used in `SolenoidClient.cs`.
 -  **Serial Connections**:
-  - **ESP TX (GPIO 1)** → **Arduino RX (D0)**
-  - **ESP RX (GPIO 3)** ← **Arduino TX (D1)**
+  - **ESP TX (GPIO 1)** → **Arduino RX (D2)**
+  - **ESP RX (GPIO 3)** ← **Arduino TX (D3)**
 -  **Remove TX/RX wires before uploading code** to ESP or Arduino — reattach after flashing.
 
 ---
