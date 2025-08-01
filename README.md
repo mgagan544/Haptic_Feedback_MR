@@ -32,6 +32,9 @@ This project simulates a heartbeat using a solenoid controlled via Unity OVR int
 
 ###  Hardware Setup
 
+<img width="1330" height="986" alt="image" src="https://github.com/user-attachments/assets/bc1ea3d0-7443-4120-86b8-b3acdf15fee9" />
+
+
 -  **Power Supply**: Use a 24V DC regulated power supply to power the solenoid. Do **NOT** power it from USB.
 -  **WiFi**: Ensure **all devices (PC, ESP8266)** are connected to the **2.4 GHz WiFi band**.
 -  **ESP8266 IP**: Assign a **static IP** to the ESP8266 in your router settings. This IP should match the one used in `SolenoidClient.cs`.
